@@ -22,7 +22,7 @@ from alembic import op
 
 
 revision: str = "20260505_add_deploy_id_apr"
-down_revision: Union[str, Sequence[str], None] = "20260504_fix_prt_index"
+down_revision: Union[str, Sequence[str], None] = "20260317_merge_all"
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None
 
