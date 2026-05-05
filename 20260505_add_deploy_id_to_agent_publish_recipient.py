@@ -1,7 +1,7 @@
 """Add deploy_id to agent_publish_recipient for per-version sharing
 
 Revision ID: 20260505_add_deploy_id_apr
-Revises: 20260504_fix_prt_index
+Revises: 20260317_merge_all
 Create Date: 2026-05-05
 
 Adds a deploy_id column so shares are scoped to a specific deployment
