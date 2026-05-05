@@ -1,6 +1,6 @@
 """Add deploy_id to agent_publish_recipient for per-version sharing
 
-Revision ID: 20260505_add_deploy_id_apr
+Revision ID: 20260505_apr_add_deploy_id
 Revises: 20260317_merge_all
 Create Date: 2026-05-05
 
@@ -24,7 +24,7 @@ import sqlalchemy as sa
 from alembic import op
 
 
-revision: str = "20260505_add_deploy_id_apr"
+revision: str = "20260505_apr_add_deploy_id"
 down_revision: Union[str, Sequence[str], None] = "20260317_merge_all"
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None
